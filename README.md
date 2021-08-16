@@ -28,3 +28,9 @@ Some of important options include:
 - `SPOTIFY_DEVICE_NAMES`: Contains the name(s) of the speakers music is supposed to be played on. *This has to be the name displayed in Spotify Connect!*
 - `SONOS_SPEAKER_NAMES`: Pretty much the same as above, but this time referencing the Sonos speaker names.
 - `DISCORD_ENABLED` and `DISCORD_WEBHOOK`: This project has a Discord integration (using webhooks) which surfaces important information in a Discord channel. If this integration is enabled, a webhook URL has to be provided.
+
+## RFID Card Content
+Soundprox recognizes RFID cards that contain text with the following format: `spotify:<type>:<uid>`.
+Currently, only `playlist` is supported as type. The UID can be acquired from a share link for example.
+
+Example: `spotify:playlist:37i9dQZF1DXa8NOEUWPn9W`
