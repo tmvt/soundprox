@@ -1,0 +1,8 @@
+.venv/
+static/
+templates/
+.idea/
+.cache
+.env
+write.py
+app.py
